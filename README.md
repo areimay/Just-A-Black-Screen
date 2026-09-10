@@ -60,4 +60,16 @@ Standard Windows sleep mode (`Win + L` or power button) carries wake-up latency 
 ### Build Steps
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/areimay/Just-A-Black-Screen.git](https://github.com/areimay/Just-A-Black-Screen.git)
+   git clone [https://github.com/YOUR_USERNAME/Just-A-Black-Screen.git](https://github.com/YOUR_USERNAME/Just-A-Black-Screen.git)
+   ```
+2. Open the solution in Visual Studio.
+3. Build or publish as a single-file executable:
+   ```bash
+   dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
+   ```
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
