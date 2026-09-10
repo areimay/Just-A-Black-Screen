@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Just_A_Black_Screen"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="Black" Foreground="Black" WindowStyle="None" ResizeMode="NoResize" WindowState="Maximized" Cursor="None" Topmost="True"
-        KeyDown="Window_KeyDown">
+        KeyDown="Window_KeyDown"
+        ShowInTaskbar="False"
+        Visibility="Hidden">
     <Grid>
 
     </Grid>

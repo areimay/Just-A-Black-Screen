@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:Just_A_Black_Screen"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>
+    
